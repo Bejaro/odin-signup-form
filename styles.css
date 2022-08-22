@@ -20,7 +20,7 @@ body{
     flex-direction: row;
     align-items: stretch;
     justify-content: center;
-    width: 80vw;
+    width: 100vw;
     height: 100vh;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -30,7 +30,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: url(images/pexels-jakub-novacek-924824.jpg);
+    background-image: url(images/pexels-emre-can-acer-2079249.jpg);
     background-size: cover;
     flex: 1;
     width: 2fr;
@@ -43,7 +43,7 @@ body{
     justify-content: center;
     flex: 2;
     width: 1fr;
-    background-color: rgb(189, 189, 189);
+    background-color: #829DB8;
 }
 
 .formcontainer > :not(.formbox){
@@ -55,10 +55,10 @@ body{
 
 .logo{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-top: 15rem;
-    background-color: rgba(114, 114, 114, 0.144);
+    background-color: rgba(114, 114, 114, 0.473);
     height: 20%;
     width: 100%;
     font-family: logoFont;
@@ -66,6 +66,11 @@ body{
 
 .logoimage{
     height: 60%;
+}
+
+.logoitem{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 /*Form side*/
@@ -79,13 +84,15 @@ body{
 
 .form-actual{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 10px;
+    justify-items:center;
 }
 
 .formseparator{
     display:flex;
     flex-direction: column;
+    width: 80%;
 }
 
 /*Text*/
@@ -112,6 +119,7 @@ body{
 
 .login{
     font-size: 16pt;
+    margin-top: 6rem;
 }
 
 .credit{
@@ -145,7 +153,7 @@ button{
     color: white;
     font-size: 16px;
     font-weight: 300;
-    background-color: rgb(0, 83, 138);
+    background-color: #8282B8;
     border: 0px;
     border-radius: 25px;
     transition:100ms
