@@ -59,13 +59,14 @@ body{
     align-items: center;
     margin-top: 15rem;
     background-color: rgba(114, 114, 114, 0.473);
-    height: 20%;
+    height: 10vw;
     width: 100%;
     font-family: logoFont;
 }
 
 .logoimage{
-    height: 60%;
+    height: auto;
+    width: 6vw;
 }
 
 .logoitem{
@@ -98,7 +99,7 @@ body{
 /*Text*/
 
 .welcome{
-    font-size: 20pt;
+    font-size: 2vw;
     padding-bottom: 6rem;
 }
 
@@ -114,11 +115,11 @@ body{
 }
 
 .text-logo{
-    font-size: 50pt;
+    font-size: 3vw;
 }
 
 .login{
-    font-size: 16pt;
+    font-size: 1.5vw;
     margin-top: 6rem;
 }
 
