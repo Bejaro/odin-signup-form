@@ -98,35 +98,58 @@ body{
 
 /*Text*/
 
-.welcome{
-    font-size: 2vw;
-    padding-bottom: 6rem;
+@media only screen and (min-width : 800px){
+    .welcome{
+        font-size: 20pt;
+    }
+
+    .calltoaction{
+        margin-top: 0;
+    }
+
+    .label{
+        color: dimgrey;
+        font-size: 8pt;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    .text-logo{
+        font-size: 25pt;
+    }
+
+    .login{
+        font-size: 10pt;
+        margin-top: 6rem;
+    }
 }
 
-.calltoaction{
-    margin-top: 0;
-}
+@media only screen and (min-width: 801px){
 
-.label{
-    color: dimgrey;
-    font-size: 8pt;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-}
+    .welcome{
+        font-size: 20pt;
+    }
 
-.text-logo{
-    font-size: 3vw;
-}
+    .calltoaction{
+        margin-top: 0;
+        margin: 0;
+    }
 
-.login{
-    font-size: 1.5vw;
-    margin-top: 6rem;
-}
+    .label{
+        color: dimgrey;
+        font-size: 8pt;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
 
-.credit{
-    font-size: 10pt;
-    font-style: italic;
-    color: rgba(255, 255, 255, 0.658);
+    .text-logo{
+        font-size: 30pt;
+    }
+
+    .login{
+        font-size: 10pt;
+        margin-top: 6rem;
+    }
 }
 
 /*Interactive*/
